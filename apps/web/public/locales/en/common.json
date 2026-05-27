@@ -1,0 +1,14 @@
+{
+  "welcome": "DATEV Integration Platform",
+  "description": "POC dashboard — screens A–F, Admin, Auth",
+  "language": "Language",
+  "nav": {
+    "overview": "Overview",
+    "employees": "Employees",
+    "documents": "Documents",
+    "exports": "Exports",
+    "jobs": "Jobs",
+    "tokens": "Tokens",
+    "admin": "Admin"
+  }
+}

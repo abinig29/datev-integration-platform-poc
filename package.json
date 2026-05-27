@@ -1,0 +1,27 @@
+{
+  "name": "datev-integration-platform-poc",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "check-types": "pnpm -r --if-present check-types",
+    "dev:native": "pnpm --filter native dev",
+    "dev:web": "pnpm --filter web dev"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "dotenv": "catalog:",
+    "zod": "catalog:",
+    "@datev-integration-platform-poc/env": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/bun": "catalog:",
+    "@datev-integration-platform-poc/config": "workspace:*"
+  }
+}
