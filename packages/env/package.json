@@ -1,0 +1,19 @@
+{
+  "name": "@datev-integration-platform-poc/env",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./web": "./src/web.ts"
+  },
+  "dependencies": {
+    "dotenv": "catalog:",
+    "zod": "catalog:",
+    "@t3-oss/env-core": "^0.13.11"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/bun": "catalog:",
+    "@datev-integration-platform-poc/config": "workspace:*"
+  }
+}
